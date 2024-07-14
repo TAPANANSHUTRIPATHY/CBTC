@@ -1,1 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tapananshu's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="func.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="LOGO.png" class="logo">
+                <ul id="sidemenubar">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hello, I'm <span>Tapananshu Tripathy</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------ABOUT SECTION-------------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-c-1">
+                    <img src="owner.jpg">
+                </div>
+                <div class="about-c-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am Tapananshu Tripathy, currently pursuing a Bachelor's degree in Technology in Computer
+                        Science at KIIT University, Bhubaneswar. Passionate about exploring the realms of technology, I
+                        enjoy diving into programming challenges and exploring new innovations in the field. With a keen
+                        interest in both software development and emerging technologies, I am driven by a desire to
+                        contribute meaningfully to the tech industry.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-link active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-link" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Developement</span><br>Designing Websites</li>
+                            <li><span>Coding</span><br>HTML, CSS, Javascript, Java, Python</li>
+                            <li><span>Microsoft</span><br>Word, Excel, Powerpoint</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2024</span><br>Internship at Cipherbyte Technologies Pvt. Ltd.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022</span><br>ICSE from St. Paul's School, Rourkela</li>
+                            <li><span>2024</span><br>AISSCE from Dr. A.N. Khosla D.A.V. Public School, Rourkela</li>
+                            <li><span>2024-Present</span><br>Bachelor of Technology in Computer Science from Kalinga
+                                Institute of Industrial Technology, Bhubaneswar</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------------------PORTFOLIO SECTION------------------------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="screencapture-127-0-0-1-5500-AMAZON-CLONE-index-html-2024-06-26-18_09_47.png">
+                    <div class="layer">
+                        <h3>Amazon Clone</h3>
+                        <p>Amazon.com is an e-commerce platform that sells many products.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="screencapture-127-0-0-1-5500-NETFLIX-CLONE-index-html-2024-06-27-15_21_57.png">
+                    <div class="layer">
+                        <h3>Netflix Clone</h3>
+                        <p>Netflix is a subscription-based streaming service that allows our members to watch TV shows
+                            and movies on an internet-connected device.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="screencapture-127-0-0-1-5500-ZOMATO-CLONE-index-html-2024-06-26-18_07_38.png">
+                    <div class="layer">
+                        <h3>Zomato Clone</h3>
+                        <p>Zomato is an Indian food delivery and restaurant aggregator company that provides
+                            information, menus, and reviews of restaurants in over 1,000 cities and towns in India.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="button">See more</a>
+        </div>
+    </div>
+    <!-- ---------------------------------CONTACT SECTION----------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>tapananshutripathy13052006@outlook.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91-9937080977</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Profile.pdf" download class="button btn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="button btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©️Tapananshu Tripathy.<i class="fa-solid fa-heart"></i> Made with HTML, CSS and Javascript.</p>
+        </div>
+    </div>
+</body>
+
+</html>
